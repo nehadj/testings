@@ -1,0 +1,58 @@
+ /* body{
+    background-color: rgb(199, 153, 188);
+}  */
+
+/* h1 a,h2 a{
+    color:rgb(173, 17, 178);
+
+}  */
+
+
+.page-header h1 a:visited,
+.page-header h1 a:active{
+    color:antiquewhite;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.page-header{
+ background-color:purple;
+ margin-top: 20px;
+ margin-bottom: 50px;
+ padding: 20px 20px 40px 40px
+}
+
+.page-header a{
+    
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+}
+
+h1,h2,h3,h4{
+    
+  
+    font-family: 'Lucida Sans',  Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans Regular',Geneva, Verdana, sans-serif;
+    font-family:'Lucida Grande',Geneva, Verdana, sans-serif;
+}
+
+.date{
+color:purple;
+background: none;
+border-color:purple;
+float:right;
+}
+
+.btn-secondary,
+.btn-secondary:visited{
+    color:pink;
+    background: none;
+    border-color:purple;
+}
+.new{
+    color: palevioletred;
+    text-decoration: none;
+
+}
+
+

@@ -1,0 +1,12 @@
+    <!-- {{posts}} -->
+    {% for item in Posts %}
+    <article class="post">
+        <h2><a href="">{{item}}</a></h2>
+        Publish Date: <h4 class="date">{{ item.publish_date}}</h4>
+        Author: <h4>{{item.author_name}}</h4>
+        
+        <p>{{item.content}}</p>
+        
+        
+    </article>
+    {% endfor %}

@@ -1,0 +1,16 @@
+<!-- all data will run that we have inserted in this file and that data will go to respected page -->
+{% extends 'blog/base.html' %}
+{% block content %}
+{% for item in Posts %}
+    <article class="post">
+        <a href="{% url 'post_detail' pk=item.pk %}">{{item}}</a>
+        Publish Date: <h4 class="date">{{ item.publish_date}}</h4>
+        Author: <h4>{{item.author_name}}</h4>
+        
+        <p>{{item.content}}</p>
+        
+        
+    </article>
+{% endfor %}
+{%endblock%} 
+
